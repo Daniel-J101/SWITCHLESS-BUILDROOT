@@ -1,6 +1,6 @@
 # SWITCHLESS-BUILDROOT
 
-This repository provides a curated and structured version of [Buildroot](https://buildroot.org) tailored for use with the [SWITCHLESS-CORE](https://github.com/SWITCHLESS-ORG/SWITCHLESS-CORE) project. All custom operating systems under SWITCHLESS-CORE use this repository as their base for building system images.
+This repository provides a curated and structured version of [Buildroot](https://buildroot.org) tailored for use with the [SWITCHLESS-OS](https://github.com/nichonaugle/CORE-OS) project. All custom operating systems under SWITCHLESS-CORE use this repository as their base for building system images.
 
 ---
 
@@ -83,6 +83,6 @@ Keeping both branches in sync with upstream ensures long-term maintainability wh
 
 ## 🛠 Related Projects
 
-- [SWITCHLESS-CORE](https://github.com/SWITCHLESS-ORG/SWITCHLESS-CORE) – Runtime and build system using this repo.
+- [SWITCHLESS-OS](https://github.com/nichonaugle/CORE-OS) – Runtime and build system using this repo.
 - [Buildroot](https://buildroot.org) – The base system used by this repository.
 
