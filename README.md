@@ -1,6 +1,6 @@
 # SWITCHLESS-BUILDROOT
 
-This repository provides a curated and structured version of [Buildroot](https://buildroot.org) tailored for use with the [SWITCHLESS-OS](https://github.com/nichonaugle/CORE-OS) project. All custom operating systems under SWITCHLESS-CORE use this repository as their base for building system images.
+This repository provides a curated and structured version of [Buildroot](https://buildroot.org) tailored for use with the [SWITCHLESS-OS](https://github.com/nichonaugle/CORE-OS) project. All custom operating systems under SWITCHLESS-OS use this repository as their base for building system images.
 
 ---
 
@@ -44,9 +44,9 @@ Derived from `main`, with the following additions:
 | Tools                    | Integrated `mxsboot` to generate SD and NAND boot images                     |
 | SDK / Toolchain Support  | Added Rockchip ARM toolchain and RV1106 IPC SDK as selectable packages       |
 | OpenCV4 Enhancements     | Switched to custom repo; disabled threading, Carotene, FlatBuffers; added RK JPEG |
-| Customization Hooks      | Integrated with SWITCHLESS-CORE build system and rootfs hooks   
+| Customization Hooks      | Integrated with SWITCHLESS-OS build system and rootfs hooks   
 
-These changes allow SWITCHLESS-CORE to build and boot reliably on RV1106 platforms.
+These changes allow SWITCHLESS-OS to build and boot reliably on RV1106 platforms.
 
 ---
 
